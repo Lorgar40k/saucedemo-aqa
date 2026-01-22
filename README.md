@@ -10,17 +10,22 @@
 
 Запуск через Docker: собрать образ `docker compose build`, запустить контейнер `docker compose run --rm tests`, просмотреть Allure отчет `allure serve ./allure-results`.
 
+Структура проекта:
+
 saucedemo-aqa/
-│
-├─ tests/                 # Тесты
-│  └─ test_login.py
-├─ pages/                 # Page Object
-│  └─ login_page.py
-├─ requirements.txt
-├─ Dockerfile
-├─ docker-compose.yml
-├─ pytest.ini
-└─ README.md
+|
+|-- tests/           # Тесты
+|   `-- test_login.py
+|
+|-- pages/           # Page Object
+|   `-- login_page.py
+|
+|-- requirements.txt
+|-- Dockerfile
+|-- docker-compose.yml
+|-- pytest.ini
+`-- README.md
+
 
 
 

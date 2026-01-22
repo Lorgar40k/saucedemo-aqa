@@ -15,15 +15,15 @@
 Структура проекта:
 
 saucedemo-aqa/
-  tests/
-    test_login.py
-  pages/
-    login_page.py
-  requirements.txt
-  Dockerfile
-  docker-compose.yml
-  pytest.ini
-  README.md
+tests/
+test_login.py
+pages/
+login_page.py
+requirements.txt
+Dockerfile
+docker-compose.yml
+pytest.ini
+README.md
 
 
 
